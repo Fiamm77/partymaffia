@@ -1,0 +1,320 @@
+@font-face{
+    font-family: "Roboto";
+    src: url("font/Roboto-Bold.ttf");
+    font-weight: bold;
+}
+
+
+.center {
+    text-align: center;
+    margin: auto;
+}
+.topMargin {margin-top: 30px;}
+.lefty{margin-left: 200px;}
+.leftParagraph{text-align: left;}
+
+h1 {
+
+
+    font-family: "Roboto";
+    font-size: 50px;
+    color: white;
+
+
+}
+
+h2 {
+ 
+    font-family: "Roboto";
+    font-size: 30px;
+    color: white;
+ 
+
+
+}
+
+h3 {
+ 
+    font-family: "Roboto";
+    font-size: 18px;
+    color: #e8409f;
+ 
+ 
+ 
+}
+
+h4 {
+
+    font-family: "Roboto";
+    font-size: 20px;
+    color: white;
+
+}
+
+h4:hover{
+    text-shadow: 1px 1px darkgray
+}
+
+
+p {
+ 
+    font-family: "Roboto";
+    color: #495057;
+
+    font-size: 18px;
+}
+
+a:hover{text-decoration: none;}
+
+input:focus{
+    outline: none;
+
+
+}
+
+.socI{
+    color:#495057;
+    font-size: 20px;
+    border-right: 10px;
+}
+.socI:hover{
+    color: #e8409f;
+}
+.buttonP:hover {
+    color: #e8409f;
+    cursor: pointer;
+
+}
+.buttonP{
+color: white; 
+margin-top: 25px;
+}
+
+.alertDiv{
+    color:red
+}
+
+
+.navItemMargin{
+    margin-right:(50px);
+}
+
+.linkP{
+    display: inline-block;
+}
+.linkP:hover{
+    color: #e8409f
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #e8409f;
+    }
+
+ .navbar-dark .navbar-nav .nav-link{
+        font-family: "roboto";
+        }   
+
+
+.vidImg{
+    width: 480px;
+    height:360px;
+    border-radius: 20px
+
+
+}
+
+.imageBtn{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;    
+    margin-left: 215px;
+}
+
+.imageBtnHover{
+    color: #e8409f;
+    text-align: center;
+    font-size: 60px;
+    margin-top: 150px;    
+    margin-left: 210px;
+}
+
+.videoP{
+    font-family: "Roboto";
+    color: #495057;
+    text-align: left;
+    border: 0px;
+    margin-bottom: 0px;
+}
+.videoH{
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+#playerDiv{
+    margin-top: 90px;
+    margin-bottom: 61px;
+    text-align: center;
+}
+#zkrBody{
+    background-image:
+    linear-gradient(to bottom, rgba(18,20,33,0.9), rgba(18,20,33,0.9)),
+    url('/pics/artist-bgrd.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-attachment: fixed;
+    color: white;
+   
+}
+
+
+  
+  
+  .linkPics {
+    margin: auto ;
+    margin-top: 20px;
+    height: 300px;
+    display: block;
+    border-radius: 20px;
+    text-align: center;
+opacity: 0.8 ;
+}
+
+
+
+.linkPics:hover{opacity: 1;}
+
+.artistDiv {
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 400px;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+
+    
+  }
+  
+  /* Make the image to responsive */
+  .image {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+    
+
+  }
+  
+  /* The overlay effect (full height and width) - lays on top of the container and over the image */
+  .overlay {
+    position: absolute;
+    top: 0px;
+    text-align: center;
+    background-color: #a71e62;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+
+    opacity: 0.2;
+    margin: auto;
+    border-radius: 20px;
+    
+  
+    display: block;
+  }
+
+  .contDiv{
+
+    margin-top: 10px;
+  }
+
+  .artistP{
+      text-align: center;
+      margin: 2px;
+  }
+  .artistH{
+      text-align: center;
+      margin: 2px;
+  }
+
+  .oneArtistPict{
+      width: 400px;
+      border-radius: 20px;
+  }
+
+  .contactP{
+      color: whitesmoke;
+  }
+
+  .input{
+    
+      border-bottom:1px solid #495057;
+      padding-top: 10px;
+  }
+  .input:focus-within{
+    border-bottom:1px solid #a71e62;
+  }
+
+  .inputBox{
+      background-color: #0c0004;
+      border: none;
+      font-family: "Roboto";
+      color: #495057;
+      text-align: left;
+      width: 95%;
+    
+      
+  }
+
+  .inputIco{
+    color: #495057;
+    text-align: right;
+  }
+
+  .alertBox{
+    background-color: #0c0004;
+    border: none;
+    font-family: "Roboto";
+    color: #a71e62;
+    text-align: left;
+  }
+
+  .textArea{
+    background-color: #0c0004;
+    outline: none;
+    border: none;
+    font-family: "Roboto";
+    color: #495057;
+    text-align: left;
+    width: 100%;
+  }
+
+  .pBtn{
+
+      margin: 0px;
+      padding: 5px;
+      border: 0px;
+      color: white;
+  }
+
+  .btnDiv{
+
+      width: 100px;
+      border-style: solid ;
+      border-width: thin;
+      border-color: white;
+      justify-content: center;
+      align-items: center;
+      border-radius: 20px;
+      display: flex;
+      vertical-align: middle;
+      margin-top: 15px;
+      
+  }
+.btnDiv:hover{
+    background-color: #a71e62;
+}

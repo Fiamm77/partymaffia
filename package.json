@@ -1,0 +1,24 @@
+{
+  "name": "partymaffia",
+  "version": "1.0.0",
+  "description": "Partymaffia repo",
+  "main": "index.js",
+  "dependencies": {
+    "nodemailer": "^6.4.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fiamm77/partymaffia.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fiamm77/partymaffia/issues"
+  },
+  "homepage": "https://github.com/Fiamm77/partymaffia#readme"
+}
